@@ -1,5 +1,5 @@
-
-shinyUI(fluidPage(
+require(shiny)
+fluidPage(
   titlePanel("Exercise 2 - Rende Plot in a Shiny App"),
   sidebarLayout(
     sidebarPanel(
@@ -7,17 +7,11 @@ shinyUI(fluidPage(
                    min = 0, max = 500, value = 100),
       selectInput("colInput", "Select a colour:",
                   choices = c("red", "yellow", "blue", "green"))
-
     ),
     mainPanel(
       mainPanel(
       plotOutput("plotOutput")
       )
-      
-
     )
   )
-  
-  
-)
 )

@@ -1,4 +1,3 @@
-
 shinyUI(fluidPage(
   titlePanel("My First Shiny App!"),
   sidebarLayout(
@@ -14,3 +13,4 @@ shinyUI(fluidPage(
 )
 )
 )
+

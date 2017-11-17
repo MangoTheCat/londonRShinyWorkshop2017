@@ -10,7 +10,6 @@ shinyUI(fluidPage(
                   choices = LETTERS[1:10])
     ),
     mainPanel(
-      mainPanel(
         h4("Using HTML in Shiny"),
         p("This is a paragraph of text that is included in our main panel.",
           strong("This text will be in bold.")),
@@ -23,6 +22,4 @@ shinyUI(fluidPage(
     )
   )
   
-  
-)
 )

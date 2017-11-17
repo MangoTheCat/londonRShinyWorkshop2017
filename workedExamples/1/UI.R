@@ -1,6 +1,6 @@
 library(shiny)
 
-shinyUI(fluidPage(
+fluidPage(
   titlePanel("My First Shiny App!"),
   sidebarLayout(
     sidebarPanel(
@@ -10,7 +10,4 @@ shinyUI(fluidPage(
       textOutput("niceTextOutput")
     )
   )
-  
-    
-)
 )
